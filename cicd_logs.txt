@@ -1,0 +1,64 @@
+Skip to content
+Navigation Menu
+masalkar-amol
+saas-local-ts
+
+Type / to search
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+Deploy
+config comments added #13
+Jobs
+Run details
+deploy
+cancelled now in 32m 54s
+Search logs
+1s
+1s
+1s
+4s
+0s
+3s
+2s
+34s
+5m 30s
+33s
+4s
+0s
+0s
+12s
+15s
+25m 31s
+*** | 49/60 | 9:56:49 PM | CREATE_IN_PROGRESS   | AWS::EC2::Route                           | Vpc/PrivateSubnet1/DefaultRoute (VpcPrivateSubnet1DefaultRouteBE02A9ED) Resource creation Initiated
+*** | 50/60 | 9:56:50 PM | CREATE_COMPLETE      | AWS::EC2::Route                           | Vpc/PrivateSubnet1/DefaultRoute (VpcPrivateSubnet1DefaultRouteBE02A9ED) 
+*** | 51/60 | 9:56:52 PM | CREATE_COMPLETE      | AWS::EC2::NatGateway                      | Vpc/PublicSubnet2/NATGateway (VpcPublicSubnet2NATGateway9182C01D) 
+*** | 51/60 | 9:56:52 PM | CREATE_IN_PROGRESS   | AWS::EC2::Route                           | Vpc/PrivateSubnet2/DefaultRoute (VpcPrivateSubnet2DefaultRoute060D2087) 
+*** | 51/60 | 9:56:53 PM | CREATE_IN_PROGRESS   | AWS::EC2::Route                           | Vpc/PrivateSubnet2/DefaultRoute (VpcPrivateSubnet2DefaultRoute060D2087) Resource creation Initiated
+*** | 52/60 | 9:56:54 PM | CREATE_COMPLETE      | AWS::EC2::Route                           | Vpc/PrivateSubnet2/DefaultRoute (VpcPrivateSubnet2DefaultRoute060D2087) 
+*** | 53/60 | 9:57:48 PM | CREATE_COMPLETE      | AWS::ElasticLoadBalancingV2::LoadBalancer | ApiService/LB (ApiServiceLB08B891CD) 
+*** | 54/60 | 9:57:48 PM | CREATE_COMPLETE      | AWS::ElasticLoadBalancingV2::LoadBalancer | WebService/LB (WebServiceLB9CAD0C10) 
+*** | 54/60 | 9:57:48 PM | CREATE_IN_PROGRESS   | AWS::ElasticLoadBalancingV2::Listener     | ApiService/LB/PublicListener (ApiServiceLBPublicListener1394DF3E) 
+*** | 54/60 | 9:57:48 PM | CREATE_IN_PROGRESS   | AWS::ElasticLoadBalancingV2::Listener     | WebService/LB/PublicListener (WebServiceLBPublicListenerEA62BC7F) 
+*** | 54/60 | 9:57:49 PM | CREATE_IN_PROGRESS   | AWS::ElasticLoadBalancingV2::Listener     | ApiService/LB/PublicListener (ApiServiceLBPublicListener1394DF3E) Resource creation Initiated
+*** | 54/60 | 9:57:49 PM | CREATE_IN_PROGRESS   | AWS::ElasticLoadBalancingV2::Listener     | WebService/LB/PublicListener (WebServiceLBPublicListenerEA62BC7F) Resource creation Initiated
+*** | 55/60 | 9:57:50 PM | CREATE_COMPLETE      | AWS::ElasticLoadBalancingV2::Listener     | ApiService/LB/PublicListener (ApiServiceLBPublicListener1394DF3E) 
+*** | 56/60 | 9:57:50 PM | CREATE_COMPLETE      | AWS::ElasticLoadBalancingV2::Listener     | WebService/LB/PublicListener (WebServiceLBPublicListenerEA62BC7F) 
+*** | 56/60 | 9:57:50 PM | CREATE_IN_PROGRESS   | AWS::ECS::Service                         | ApiService/Service/Service (ApiService199661B5) 
+*** | 56/60 | 9:57:51 PM | CREATE_IN_PROGRESS   | AWS::ECS::Service                         | WebService/Service/Service (WebService5EA589E6) 
+*** | 56/60 | 9:57:52 PM | CREATE_IN_PROGRESS   | AWS::ECS::Service                         | WebService/Service/Service (WebService5EA589E6) Resource creation Initiated
+*** | 56/60 | 9:57:52 PM | CREATE_IN_PROGRESS   | AWS::ECS::Service                         | ApiService/Service/Service (ApiService199661B5) Resource creation Initiated
+*** | 57/60 | 9:58:34 PM | CREATE_COMPLETE      | AWS::ECS::Service                         | AiService/Service (AiService650520B9) 
+*** | 58/60 | 9:59:24 PM | CREATE_COMPLETE      | AWS::ECS::Service                         | WebService/Service/Service (WebService5EA589E6) 
+Error: The operation was canceled.
+0s
+0s
+0s
+0s
+0s
